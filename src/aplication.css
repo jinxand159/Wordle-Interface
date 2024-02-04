@@ -1,0 +1,71 @@
+#square-label {
+    -fx-display: inline-block;
+    -fx-min-width: 60;
+    -fx-max-width: 60;
+    -fx-min-height: 60;
+    -fx-max-height: 60;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-padding: 0;
+}
+
+#rectangle-label {
+	-fx-display: inline-block;
+    -fx-min-width: 400;
+    -fx-max-width: 400;
+    -fx-min-height: 60;
+    -fx-max-height: 60;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-background-color: red;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-padding: 0;
+}
+
+#good {
+	-fx-display: inline-block;
+    -fx-min-width: 60;
+    -fx-max-width: 60;
+    -fx-min-height: 60;
+    -fx-max-height: 60;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-background-color: lightgreen;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-padding: 0;
+}
+
+#wrong-placement{
+	-fx-display: inline-block;
+    -fx-min-width: 60;
+    -fx-max-width: 60;
+    -fx-min-height: 60;
+    -fx-max-height: 60;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+    -fx-background-color: yellow;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-padding: 0;
+}
+
+#wrong{
+	-fx-display: inline-block;
+    -fx-min-width: 60;
+    -fx-max-width: 60;
+    -fx-min-height: 60;
+    -fx-max-height: 60;
+    -fx-border-width: 2;
+    -fx-border-color: red;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-padding: 0;
+}
+
+.red-button {
+    -fx-background-color: red;
+}
